@@ -16,7 +16,7 @@ import com.demo.entity.Employee;
 import com.demo.service.MyBankServiceInterface;
 
 @RestController
-@RequestMapping("/api/emp")
+@RequestMapping("/api/v1/emp")
 public class MyBankController {
 
 	@Autowired
