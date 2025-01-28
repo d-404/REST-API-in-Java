@@ -1,0 +1,23 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore all .env files
+*.env
+
+# Ignore specific file
+secret-file.txt
+
+# Ignore all files ending with .bak
+*.bak
+
+# Ignore application.properties file
+oauth2/src/main/resources/application.properties
+
+# Ignore Workspace directory
+Workspace/
+
+# Ignore specific JSON file
+client_secret_527001047389-36f824mei4kec1jb8qphvsoa7kvhuqom.apps.googleusercontent.com.json
