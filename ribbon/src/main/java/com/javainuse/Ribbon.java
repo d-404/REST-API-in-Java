@@ -11,10 +11,10 @@ import org.springframework.web.client.RestClientException;
 import com.javainuse.controllers.ConsumerControllerClient;
 
 @SpringBootApplication
-public class SpringBootHelloWorldApplication {
+public class Ribbon {
 
 	public static void main(String[] args) throws RestClientException, IOException {
-		SpringApplication.run(SpringBootHelloWorldApplication.class, args);
+		SpringApplication.run(Ribbon.class, args);
 
 	}
 
